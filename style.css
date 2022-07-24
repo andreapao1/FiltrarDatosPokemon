@@ -1,0 +1,10 @@
+.search-movie{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-search{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
