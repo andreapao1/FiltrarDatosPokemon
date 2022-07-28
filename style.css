@@ -25,10 +25,33 @@ h1{
 	margin: 0 auto;
 }
 
+.img_Pokemon{
+    display: flex;
+    flex-direction: center;
+}
+
+.pokeapi1{
+    margin-top: 40px;
+    padding-left: 130px;
+    background-color: #e6e0e0;
+}
+
+.pokeapi{
+    margin-top: 40px;
+    padding-left: 130px;
+    margin-left: 580px;
+    background-color: #abf68a;
+    width: 212px;
+    padding-bottom: 40px;
+}
 
 .pokedex {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	grid-gap: 20px;
 	padding-inline-start: 0;
+}
+
+.colorletter{
+    padding-top: 20px;
 }

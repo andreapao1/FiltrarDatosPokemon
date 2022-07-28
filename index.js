@@ -39,7 +39,7 @@ async function getPokemon() {
         //personaje.obtenerFoto();
         console.log(foto)
         elemento.innerHTML += 
-        `<div class="pokeapi">
+        `<div class="pokeapi1">
         <h2 class="colorletter">${datum.name}</h2>
         <img src="${foto}">
         </div>`
@@ -54,6 +54,7 @@ async function getPokemon() {
     }
 
 
+
     async function llamarBusqueda() {
         const consulta = document.getElementById("buscador").value;
         let url = `https://pokeapi.co/api/v2/pokemon/${consulta}`;
@@ -62,12 +63,14 @@ async function getPokemon() {
 
         elemento.innerHTML = `<div class="pokeapi">
         <h2 class="colorletter">${pokemones.name}</h2>
-        <img src="${pokemones.sprites.front_default}">
+        <img class="img_Pokemon" src="${pokemones.sprites.front_default}">
         </div>`
+
 
         console.log(data);
 
     }
+
 
 
 
