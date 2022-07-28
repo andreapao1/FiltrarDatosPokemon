@@ -12,12 +12,13 @@
         <h1>Buscar Pokemon:</h1>
 
         <input class="input-search" type="text" placeholder="Ingresar Pokemon" id="buscador">
-        <button onclick="llamarBusqueda()" id="buscarBtn">Buscar</button>
-
+        <button class="buttonSearch" onclick="llamarBusqueda()" id="buscarBtn">Buscar</button>
     </div>
     
+    <div class="conteiner">
+        <div class="pokedex" data-js="pokedex" id="app"></div>
+    </div>
     
-    <div id="app"></div>
 
     <script src="index.js"></script>
 </body>
