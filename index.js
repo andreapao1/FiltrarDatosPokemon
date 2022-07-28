@@ -40,8 +40,8 @@ async function getPokemon() {
         console.log(foto)
         elemento.innerHTML += 
         `<div class="pokeapi1">
-        <h2 class="colorletter">${datum.name}</h2>
-        <img src="${foto}">
+        <h2 class="colorletter1">${datum.name}</h2>
+        <img class="img_Pokemon1" src="${foto}">
         </div>`
 
             

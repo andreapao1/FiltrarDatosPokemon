@@ -1,6 +1,11 @@
+* {
+    background-color: rgb(237, 237, 237);
+}
+
 h1{
     text-align: center;
     font-size: 50px;
+    color: rgb(14, 14, 103);
 }
 
 .buttonSearch{
@@ -8,15 +13,20 @@ h1{
 	width: 80px;
 	border-radius: 5px;
 	cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .input-search{
     height: 50px;
     margin-top: 10px;
-	margin-left: 600px;
+	margin-left: 500px;
 	width: 200px;
 	padding-left: 4px;
 	border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(155, 166, 166);
 }
 
 
@@ -28,12 +38,16 @@ h1{
 .img_Pokemon{
     display: flex;
     flex-direction: center;
+    background-color: #abf68a;
 }
 
 .pokeapi1{
-    margin-top: 40px;
-    padding-left: 130px;
-    background-color: #e6e0e0;
+    margin-top: 20px;
+    padding-left: 140px;
+    width: 215px;
+    background-color: rgb(253, 205, 253);
+    border-radius: 10px;
+    color: rgb(100, 47, 141);
 }
 
 .pokeapi{
@@ -43,6 +57,8 @@ h1{
     background-color: #abf68a;
     width: 212px;
     padding-bottom: 40px;
+    border-radius: 10px;
+    color: rgb(83, 38, 118);
 }
 
 .pokedex {
@@ -54,4 +70,21 @@ h1{
 
 .colorletter{
     padding-top: 20px;
+    background-color: #abf68a;
+}
+
+.colorletter1 {
+    background-color: rgb(253, 205, 253);
+}
+
+.img_Pokemon1 {
+    background-color: rgb(253, 205, 253);
+}
+
+img {
+    width: 115px;
+}
+
+h2 {
+    font-weight: 600px;
 }
